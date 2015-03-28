@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_success>
+        <reference name="head">
+            <block type="injector/success" name="injector_success_before_head_end"
+                   template="ck/injector/success_before_head_end.phtml"/>
+        </reference>
+        <reference name="before_body_end">
+            <block type="injector/success" name="injector_success_before_body_end"
+                   template="ck/injector/success_before_body_end.phtml"/>
+        </reference>
+    </checkout_onepage_success>
+</layout>   
+	

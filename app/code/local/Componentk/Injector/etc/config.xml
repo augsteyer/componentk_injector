@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Componentk_Injector>
+            <version>0.2.0</version>
+        </Componentk_Injector>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <injector>
+                    <file>ck/injector.xml</file>
+                </injector>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <helpers>
+            <injector>
+                <class>Componentk_Injector_Helper</class>
+            </injector>
+        </helpers>
+        <blocks>
+            <injector>
+                <class>Componentk_Injector_Block</class>
+            </injector>
+        </blocks>
+    </global>
+</config> 

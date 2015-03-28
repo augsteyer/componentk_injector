@@ -1,0 +1,4 @@
+app/code/local/Componentk/Injector                          app/code/local/Componentk/Injector
+app/design/frontend/base/default/layout/ck/                 app/design/frontend/base/default/layout/ck/
+app/design/frontend/base/default/template/ck/injector/*     app/design/frontend/base/default/template/ck/injector/
+app/etc/modules/Componentk_Injector.xml                     app/etc/modules/Componentk_Injector.xml
